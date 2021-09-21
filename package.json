@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "owncloud-android",
-  "description": "The ownCloud Android documentation",
+  "description": "The ownCloud Android App documentation",
   "version": "1.0.0",
   "license": "AGPL-3.0",
   "author": "The ownCloud Team <docs@owncloud.com>",
