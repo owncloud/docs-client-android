@@ -1,17 +1,17 @@
 {
   "private": true,
-  "name": "owncloud-ios",
-  "description": "The ownCloud iOS documentation",
+  "name": "owncloud-android",
+  "description": "The ownCloud Android documentation",
   "version": "1.0.0",
   "license": "AGPL-3.0",
   "author": "The ownCloud Team <docs@owncloud.com>",
-  "homepage": "https://github.com/owncloud/docs-client-ios-app#readme",
+  "homepage": "https://github.com/owncloud/docs-client-android#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/owncloud/docs-client-ios-app.git"
+    "url": "git+https://github.com/owncloud/docs-client-android.git"
   },
   "bugs": {
-    "url": "https://github.com/owncloud/docs-client-ios-app/issues"
+    "url": "https://github.com/owncloud/docs-client-android/issues"
   },
   "contributors": [
     {
