@@ -1,0 +1,30 @@
+site:
+  title: ownCloud iOS App Documentation
+  url: https://doc.owncloud.com
+
+content:
+  sources:
+  - url: .
+    branches:
+    - HEAD
+
+ui:
+  output_dir: assets
+  bundle:
+    snapshot: true
+    url: https://minio.owncloud.com/documentation/ui-bundle.zip
+
+output:
+  clean: true
+  dir: public
+
+asciidoc:
+  attributes:
+    idprefix: ''
+    idseparator: '-'
+    experimental: ''
+    latest-ios-app-version: 11.7
+    previous-ios-app-version: 11.7
+  extensions:
+    - ./lib/extensions/tabs.js
+    - ./node_modules/asciidoctor-kroki/src/asciidoctor-kroki.js

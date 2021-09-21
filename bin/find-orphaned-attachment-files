@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+#
+# This script checks the ownCloud ios app documentation manual to 
+# see if any of the example files are orphaned.
+#
+
+AVAILABLE_MANUAL=( ROOT )
+
+echo
+echo "Checking for orphaned ATTACHMENT files in manual: ${AVAILABLE_MANUAL}"
+echo "Please run this scrip from your docs root"
+echo
+
+for manual in "${AVAILABLE_MANUAL[@]}"; do
+    [[ ! -e "./modules/${manual}/" ]] && echo "Cannot find ${manual} manual." && continue
+
+    echo -e "\e[1;32mChecking the ${manual} manual \e[0m"
+    find "./modules/${manual}/assets/attachments/" \
+        \( -path "**/.DS_Store" -o -path "**/vendor" -o -path "**/.gitkeep" \) -prune -o \
+        -type f \
+        -exec bash -c 'grep -rnq -E "link:.*$(basename $0 | sed "s/\./\\./")" ./modules/$1/pages || echo "$0"' {} "${manual}" \;
+    echo
+done
+
+echo -e "\e[1;32mCheck completed. \e[0m"
+echo
+echo "Please consider that files may have been added intentionally but have currently not been included in the documentation."
+echo
+echo "You may want to check the orphan history via:"
+echo
+echo "git log --full-history -- full_path_file_from_above"
+echo
