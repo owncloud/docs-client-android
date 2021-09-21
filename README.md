@@ -44,8 +44,8 @@ See the the [following section](https://github.com/owncloud/docs#target-branch-a
 
 ## Branching Workflow
 
-Please refer to the [Branching Workflow for the Andriod client](https://github.com/owncloud/docs-client-andriod/blob/master/docs/the-branching-workflow.md) or more information.
+Please refer to the [Branching Workflow for the Android client](https://github.com/owncloud/docs-client-android/blob/master/docs/the-branching-workflow.md) or more information.
 
 ## Create a New Version Branch for the Desktop Client
 
-Please refer to [Create a New Version Branch for the Andriod client](https://github.com/owncloud/docs-client-andriod/blob/master/docs/new-version-branch.md) for more information.
+Please refer to [Create a New Version Branch for the Android client](https://github.com/owncloud/docs-client-android/blob/master/docs/new-version-branch.md) for more information.
