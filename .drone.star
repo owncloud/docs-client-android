@@ -1,12 +1,12 @@
 def main(ctx):
     # Config
 
-    environment = "ios-app"
+    environment = "android"
 
     # Version shown as latest in generated documentations
     # It's fine that this is out of date in version branches, usually just needs
     # adjustment in master/deployment_branch when a new version is added to site.yml
-    latest_version = "11.7"
+    latest_version = "2.18.1"
     default_branch = "master"
 
     # Current version branch (used to determine when changes are supposed to be pushed)

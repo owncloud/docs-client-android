@@ -8,7 +8,7 @@
 MANUAL_ROOT_NAME="ROOT"
 # the postfix component is used to create the path to the manual like admin_manual 
 MANUAL_POSTFIX_NAME=""
-AVAILABLE_MANUALS=(iOS_App)
+AVAILABLE_MANUALS=(Android_App)
 # define if the first letter of the manual name must be captitalized (Desktop)
 # make empty in case it can be also lower case (like iOS-App)
-FIRST_LETTER_CAPITAL=""
+FIRST_LETTER_CAPITAL="Y"

@@ -1,4 +1,4 @@
-= ownCloud Android Manual
+= ownCloud Android App Manual
 :toc:
 :toclevels: 2
 :homepage: https://github.com/owncloud/docs-client-android
