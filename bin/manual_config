@@ -8,6 +8,8 @@
 MANUAL_ROOT_NAME="ROOT"
 # the postfix component is used to create the path to the manual like admin_manual 
 MANUAL_POSTFIX_NAME=""
+# note that this name must be part of the book filename in books/
+# a part of the file name is composed by available_manuals+manual_postfix
 AVAILABLE_MANUALS=(Android_App)
 # define if the first letter of the manual name must be captitalized (Desktop)
 # make empty in case it can be also lower case (like iOS-App)
