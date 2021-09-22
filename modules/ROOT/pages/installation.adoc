@@ -1,0 +1,42 @@
+= Installing the ownCloud Android App
+
+:toc: right
+:toclevels: 1
+:app-name: ownCloud Android App
+:owncloud-mobile-download-url: http://owncloud.org/install/#mobile
+:play-store-url: https://play.google.com/store/apps/details?id=com.owncloud.android
+
+== Introduction
+
+This section describes wow to install and upgrade the {app-name}.
+
+== Installation
+
+One way to get your ownCloud Android app is to log into your ownCloud server from your Android device using a Web browser such as Chrome, Firefox, or Dolphin.
+
+The first time you log into a new ownCloud account, you'll see a screen with a download link to the {app-name} in the {play-store-url}[Google Play Store].
+
+image:android-1.png[Download the ownCloud Android app in the Google Play store, width=40%,pdfwidth=40%]
+
+You will also find these links on your Personal page in the ownCloud Web interface. Find source code and more information from the {owncloud-mobile-download-url}[ownCloud download page]. Users of customized ownCloud Android apps, for example from their employer, should follow their employer's instructions.
+
+== Upgrading
+
+When you download your {app-name} from the Google Play store, it will be upgraded just like any other Play Store application, according to your settings on your Android device.
+
+It will either update automatically or give you a notification that an upgrade is available.
+If you are using an ownCloud Android app from a custom repository, e.g., your employer, then it will update in accordance with their policies.
+
+== New Features Wizard
+
+The first time that you use the Android app, you will see the _"New Features Wizard"_. The wizard, similar to wizards in other applications and operating systems, gives you a quick overview of the new features in the {app-name}, so that you’re familiar with them as quickly as possible.
+
+The new features covered in the wizard are:
+
+* xref:settings.adoc#passcode_locks_pins[Passcode Locks & Pins]
+* xref:settings.adoc#pattern_and_fingerprint_lock[Fingerprint Lock]
+* xref:files.adoc#gif-support[GIF Support]
+* xref:files.adoc#upload-pictures-directly-from-the-camera[Upload Pictures Directly From The Camera]
+
+image:new-features-wizard/new-features-wizard-step-owncloud-android-app.png[The
+New Features Wizard in the ownCloud Android app., width=80%,pdfwidth=80%]

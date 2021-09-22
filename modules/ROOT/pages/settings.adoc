@@ -1,0 +1,70 @@
+= Application Settings
+
+:toc: right
+:toclevels: 1
+:app-name: ownCloud Android App
+
+== Introduction
+
+Use the _"Settings"_ screen to control your ownCloud applications settings and functionality.
+
+image:android-settings-page.png[The Settings Screen in the {app-name}, width=40%,pdfwidth=40%]
+
+=== Camera Uploads
+
+If you take photos or create videos with your Android device, they can be automatically uploaded to your ownCloud server. To enable this, under _"Camera uploads"_ tap one or both of _Picture uploads_ or _Video uploads_.
+
+image:android-settings-camera-upload.png[{app-name} settings - picture and video upload configuration, width=40%,pdfwidth=40%]
+
+By enabling these features any new photos or videos which you create will be automatically uploaded every 15 minutes. Photos and videos are not uploaded when they’re created, to focus on reliability, instead of immediacy, and to avoid battery draining caused by excessive checking of the camera folder.
+
+NOTE: Please be aware that if you used the earlier _Instant Uploads_ feature, you will lose the configuration and have to enable the "Camera uploads" feature if you want to use it, since it needs to be initialized and configured properly.
+
+If you’re concerned about mobile data usage, or have an account with limited data available, you can limit uploading to only when a WiFi is in use. This option is visible once you've enabled the respective option. For photos tap *"Upload pictures via wifi only"*. For videos tap *"Upload videos via wifi only"*.
+
+By default, photos and videos are uploaded to a directory called `/CameraUpload`. However, you also have the option to use an existing directory, or to create a new one. To change the upload location, tap on _Picture upload path_ under photos or _Video upload_ path under videos, and choose one of the folders displayed.
+
+To create a new folder, click the btn:[More options] menu, in the top right-hand corner. This will display the menu option: _New folder_. Tap it and enter the name of the new folder in the _Folder name_ dialog. Then, tap the newly created folder and tap btn:[Choose] in the bottom right-hand corner. You'll see that the path has been updated.
+
+=== Allow Light Filtering Apps
+
+By enabling the option (which you can see in the screenshot below), the {app-name} will not be obscured by any light filtering apps, which gives the choice of using them together. When it is enabled, security warning is enabled. 
+
+image:settings/allow-light-filtering-apps.png[Allow light filtering apps, width=40%,pdfwidth=40%]
+
+=== Logs
+
+image:logs/show-logs.png[View logs in the {app-name}, width=40%,pdfwidth=40%]
+
+If you detect a problem or a bug in the {app-name}, you can send us logs about the problem. You will find the log information in the Settings view, after enabling it. To enable the logs, you have to tap five times on the version and build information, available under menu:Settings[ownCloud for Android] .
+
+When enabled, inside the log section options to send and delete history are available as well as to search the logs. If you tap btn:[Send History] your mail app is opened to address the log file. Searching the logs is available via the lens icon in the top right-hand side of the Files view.
+
+
+=== Passcode Locks & Pins
+
+You can also set a passcode lock to further protect your files and folders. And, if you want extra security, you can set a login PIN on your Android device, and also on your ownCloud account. If you are using a shared Android device, other users can access your files in the file manager if you are sharing a single user account. To avoid this, you could set up multiple user accounts to protect your files.
+
+The bottom section of the _"Settings"_ screen has links to:
+
+* Help
+* Recommend to a friend
+* Feedback
+* The version number
+
+=== Pattern Lock and Fingerprint Lock
+
+In addition to the Passcode Lock and Pins, you also have the ability to use both a pattern and a fingerprint lock to protect access to your ownCloud app and its data. To enable one or both, under menu:Settings[Security], choose which one(s) you want to enable.
+
+NOTE: To use the Fingerprint Lock, the Pattern Lock has to be enabled.
+
+image:security/fingerprint-and-pattern-lock-enabled-disabled-owncloud-android-app.png[Enable or disable the Fingerprint and Pattern Lock in the ownCloud Android app., width=40%,pdfwidth=40%]
+
+image:security/fingerprint-and-pattern-lock-owncloud-android-app.png[The Pattern Lock and Fingerprint Lock in the ownCloud Android app., width=40%,pdfwidth=40%]
+
+After you enable the pattern lock, you will need to create a pattern and then confirm it to access the ownCloud app, just as you would if you've enabled that for access to the phone itself. If you later disable pattern lock, you will need to enter your pattern again.
+
+If you enable the fingerprint lock, you will need to provide one of your already stored fingerprint patterns to access the ownCloud app.
+
+NOTE: If fingerprint lock is enabled, but you don’t want to use it, you can cancel the fingerprint lock prompt and fallback to using the pattern lock instead.
+

@@ -1,0 +1,37 @@
+= Connecting to Your ownCloud
+
+:toc: right
+:toclevels: 1
+:app-name: ownCloud Android App
+:create-self-signed-ssl-cert: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04
+:enable-ssl-url: http://info.ssl.com/article.aspx?id=10241
+:oauth2-app-url: https://marketplace.owncloud.com/apps/oauth2
+
+== Installing
+
+The first time you run your ownCloud Android app, it opens to a configuration screen.
+Enter your server URL, login name, password, and click the btn:[Connect] button.
+Click the btn:[eyeball] to the right of your password to expose your password.
+
+image:android-2.png[{app-name}: Add a new account, width=40%,pdfwidth=40%]
+
+For best security, your ownCloud server should be {enable-ssl-url}[SSL-enabled] so that you can connect via HTTPS. The {app-name} will test your connection as soon as you provide it and tell you if you entered it correctly. If your server has {create-self-signed-ssl-cert}[a self-signed SSL certificate], you'll get a warning that it is not to be trusted. If this happens, click the btn:[YES] button to accept the certificate and complete your account setup.
+
+image:android-3.png[The {app-name}: choose whether to trust SSL certificates that cannot be verified, width=40%,pdfwidth=40%]
+
+With that completed, you're now ready to use the {app-name}.
+At this point, you'll be on the _"All Files"_ screen, which you see below.
+
+image:android-all-files-overview.png[{app-name}: All files overview, width=80%,pdfwidth=80%]
+
+By clicking the main menu at the top left, you will be able to manage the core functionality of the app. The options are:
+
+* xref:accounts.adoc[Manage Users Accounts]
+* xref:files.adoc#current-uploads[Current Uploads]
+* xref:files.adoc#all_files_view[All Files View]
+* xref:settings.adoc[Application Settings]
+
+[NOTE]
+====
+To use Two-Factor Authentication, ownCloud server must have the {oauth2-app-url}[the OAuth2 app] installed, configured, and enabled. Please contact your ownCloud administrator for more details.
+====
