@@ -194,11 +194,14 @@ image:android-6.png[{app-name}: User overflow menu, width=40%,pdfwidth=40%]
 
 ==== Upload Pictures Directly From The Camera
 
-[cols=",,",options="header"]
+[cols="^33%,^33%,^33%",options="header"]
 |===
-a| image:camera/share-from-camera-owncloud-android-app-step-1.png[Uploading pictures directly from the camera in the ownCloud Android app, steps 1, width=80%,pdfwidth=45%]
-a| image:camera/share-from-camera-owncloud-android-app-step-2.png[Uploading pictures directly from the camera in the ownCloud Android app, steps 2, width=80%,pdfwidth=45%]
-a| image:camera/share-from-camera-owncloud-android-app-step-3.jpg[Uploading pictures directly from the camera in the ownCloud Android app, steps 3, width=80%,pdfwidth=45%]
+| Step 1
+| Step 2
+| Step 3
+a| image::camera/share-from-camera-owncloud-android-app-step-1.png[Uploading pictures directly from the camera in the ownCloud Android app - step 1, width=80%,pdfwidth=80%]
+a| image:camera/share-from-camera-owncloud-android-app-step-2.png[Uploading pictures directly from the camera in the ownCloud Android app - step 2, width=80%,pdfwidth=80%]
+a| image:camera/share-from-camera-owncloud-android-app-step-3.jpg[Uploading pictures directly from the camera in the ownCloud Android app - step 3, width=80%,pdfwidth=80%]
 |===
 
 Images can be uploaded directly from the camera. To do so, similar to uploading a file or creating a new folder, when viewing all files, click the btn:[Plus] icon, then the btn:[Upload] button in the popup list (which is the first icon). From there, under btn:[Upload to ownCloud], click btn:[Picture from camera]. The camera app will then start, and the picture that you take can be directly uploaded to your ownCloud server.
