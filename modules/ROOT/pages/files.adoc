@@ -23,7 +23,7 @@ When you are on your main Files page and you long press on any file or folder a 
 
 image:files/android-file-list-overflow-menu.jpg[{app-name}: File overflow menu, width=40%,pdfwidth=40%]
 
-=== Sharing Files
+== Sharing Files
 
 You can share with other ownCloud users and groups, and create public or private share links.
 
@@ -61,13 +61,13 @@ image:files/android-14.png[{app-name}: Share file with dialog, width=50%,pdfwidt
 To create a public link, click the btn:[plus symbol] next to _"Public Links"_. This will display the options available for that link, including _"Allow editing"_, _"Password"_, and _"Expiration"_. After the options have been suitably configured, click btn:[Save] to create the link.
 If you do not want to create the public link, click btn:[Cancel].
 
-=== GIF Support
+== GIF Support
 
-If you upload animated GIFs, when viewing them they will be animated and not render as a still image, as in the example GIF below.
+If you upload animated GIFs, when viewing them, they will be animated and not render as a still image, as in the example GIF below.
 
 image:files/gif-support-owncloud-android-app.png[View animated GIFs in the ownCloud Android app., width=40%,pdfwidth=40%]
 
-=== Creating New Content
+== Creating New Content
 
 To add new content to your ownCloud server, whether files, folders, or content from other apps, click the blue button at the bottom right to expose the btn:[Upload] and btn:[New folder] buttons.
 
@@ -79,7 +79,7 @@ Click the btn:[overflow button] at the top right (that's the one with three vert
 
 image:files/android-6.png[{app-name}: User overflow menu, width=40%,pdfwidth=40%]
 
-==== Upload Pictures Directly From The Camera
+== Upload Pictures Directly From The Camera
 
 [cols="^33%,^33%,^33%",options="header"]
 |===
@@ -93,19 +93,19 @@ a| image:files/share-from-camera-owncloud-android-app-step-3.jpg[Uploading pictu
 
 Images can be uploaded directly from the camera. To do so, similar to uploading a file or creating a new folder, when viewing all files, click the btn:[Plus] icon, then the btn:[Upload] button in the popup list (which is the first icon). From there, under btn:[Upload to ownCloud], click btn:[Picture from camera]. The camera app will then start, and the picture that you take can be directly uploaded to your ownCloud server.
 
-=== Working With Multiple Files
+== Working With Multiple Files
 
 The Android application can perform some operations on multiple files simultaneously, such as refreshing and deleting. To select multiple files, long select the first file that you want to work with; you will see a checkbox appear on the far right-hand side. After that, check the checkbox next to all the other files that you want to perform the same operation on, and then perform the operation.
 
 image:files/select-multiple-files.png[{app-name}: Select multiple files, width=40%,pdfwidth=40%]
 
-=== Uploading Files Taken From the Camera
+== Uploading Files Taken From the Camera
 
 Pictures and videos can be uploaded from your smartphone after choosing the folder where they are stored. To specify where they are located, in the _"Settings"_ options, under xref:camera-uploads[Camera uploads], enable one of _"Picture uploads"_ or _"Video uploads"_. After that, a further option called _"Camera folder"_ will become visible, as in the screenshot below.
 
 image:files/specify-camera-folder.png[{app-name}: Specify camera folder, width=40%,pdfwidth=40%]
 
-=== Current Uploads
+== Current Uploads
 
 The Uploads page displays the status of files currently uploading, a list of your recently uploaded files, and a Retry option for any failed uploads. If credentials to access the file have changed, you'll see a credentials error. Tap the file to retry, and you'll get a login screen to enter the new credentials.
 
@@ -113,7 +113,7 @@ If the upload fails because you're trying to upload to a folder that you do not 
 
 image:files/current-uploads.png[ownCloud Android app — Current Uploads view, width=40%,pdfwidth=40%]
 
-=== Make Folders Available Offline
+== Make Folders Available Offline
 
 Folders can be made available for when no internet or mobile connectivity is available. Doing so caches a copy of the folder and its contents locally to the device (assuming that sufficient disc space is available). Depending on the number of folders selected for offline availability, how folders are made available offline works slightly differently.
 

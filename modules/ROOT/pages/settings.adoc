@@ -13,7 +13,7 @@ Use the _"Settings"_ screen to control your ownCloud applications settings and f
 
 image:settings/android-settings-page.png[The Settings Screen in the {app-name}, width=40%,pdfwidth=40%]
 
-=== Camera Uploads
+== Camera Uploads
 
 If you take photos or create videos with your Android device, they can be automatically uploaded to your ownCloud server. To enable this, under _"Camera uploads"_ tap one or both of _Picture uploads_ or _Video uploads_.
 
@@ -29,13 +29,13 @@ By default, photos and videos are uploaded to a directory called `/CameraUpload`
 
 To create a new folder, click the btn:[More options] menu, in the top right-hand corner. This will display the menu option: _New folder_. Tap it and enter the name of the new folder in the _Folder name_ dialog. Then, tap the newly created folder and tap btn:[Choose] in the bottom right-hand corner. You'll see that the path has been updated.
 
-=== Allow Light Filtering Apps
+== Allow Light Filtering Apps
 
 By enabling the option (which you can see in the screenshot below), the {app-name} will not be obscured by any light filtering apps, which gives the choice of using them together. When it is enabled, security warning is enabled. 
 
 image:settings/allow-light-filtering-apps.png[Allow light filtering apps, width=40%,pdfwidth=40%]
 
-=== Logs
+== Logs
 
 image:logs/show-logs.png[View logs in the {app-name}, width=40%,pdfwidth=40%]
 
@@ -43,6 +43,7 @@ If you detect a problem or a bug in the {app-name}, you can send us logs about t
 
 When enabled, inside the log section options to send and delete history are available as well as to search the logs. If you tap btn:[Send History] your mail app is opened to address the log file. Searching the logs is available via the lens icon in the top right-hand side of the Files view.
 
+== Access Protection
 
 === Passcode Locks & Pins
 
