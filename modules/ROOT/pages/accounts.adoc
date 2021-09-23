@@ -11,11 +11,11 @@ image:accounts/manage-user-accounts.png[{app-name}: Manage user accounts, width=
 
 Then, click btn:[Manage accounts]. From there, you can see all of the currently active user accounts, along with a button to add a new account.
 
-=== Adding Accounts
+== Adding Accounts
 
 To add a new account is identical to creating the first account. Click btn:[Add account], and then follow the instructions in xref:connecting-to-your-owncloud-server[Connecting to Your ownCloud Server].
 
-=== Viewing Accounts
+== Viewing Accounts
 
 After clicking btn:[Manage accounts], you will see a list of the currently active accounts in the application, as in the screenshot below. Each entry in the list has shortcuts to:
 
@@ -25,7 +25,7 @@ After clicking btn:[Manage accounts], you will see a list of the currently activ
 
 image:accounts/android-manage-accounts.jpg[{app-name}: Manage existing user accounts, width=40%,pdfwidth=40%]
 
-=== Removing Accounts & Logging Out
+== Removing Accounts & Logging Out
 
 To remove an account, click the btn:[rubbish bin] icon, next to the key icon. This will display a confirmation dialog, asking if you want to remove the account. If you click btn:[Yes], the account will be removed.
 
@@ -35,7 +35,7 @@ image:accounts/android-remove-account-confirmation.jpg[{app-name}: Confirm remov
 
 NOTE: There is no logout function that both logs out of your account *and* leaves all your files on your Android device.
 
-=== Change User Passwords
+== Change User Passwords
 
 To change a user's password, click the btn:[key] icon, next to the user's details. This will display the user details page, with the ownCloud server URI and user account, pre-filled. Enter a new password, and click btn:[Connect], and the password will be updated.
 

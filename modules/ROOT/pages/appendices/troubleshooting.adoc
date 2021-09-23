@@ -63,3 +63,4 @@ Please see the {apache-docs-logging}[Apache logging] pages to get more informati
 
 {mitmproxy-url}[mitmproxy] is an interactive man-in-the-middle proxy for HTTP and HTTPS with a console interface. At ownCloud we use it a lot to investigate every detail of HTTP requests and responses.
 
+image:troubleshooting/mitmproxy_screenshot.png[mitmproxy sample output, width=100%,pdfwidth=100%]
