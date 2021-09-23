@@ -16,16 +16,16 @@ The first time you run your ownCloud Android app, it opens to a configuration sc
 Enter your server URL, login name, password, and click the btn:[Connect] button.
 Click the btn:[eyeball] to the right of your password to expose your password.
 
-image:android-2.png[{app-name}: Add a new account, width=40%,pdfwidth=40%]
+image:connecting/android-2.png[{app-name}: Add a new account, width=40%,pdfwidth=40%]
 
 For best security, your ownCloud server should be {enable-ssl-url}[SSL-enabled] so that you can connect via HTTPS. The {app-name} will test your connection as soon as you provide it and tell you if you entered it correctly. If your server has {create-self-signed-ssl-cert}[a self-signed SSL certificate], you'll get a warning that it is not to be trusted. If this happens, click the btn:[YES] button to accept the certificate and complete your account setup.
 
-image:android-3.png[The {app-name}: choose whether to trust SSL certificates that cannot be verified, width=40%,pdfwidth=40%]
+image:connecting/android-3.png[The {app-name}: choose whether to trust SSL certificates that cannot be verified, width=40%,pdfwidth=40%]
 
 With that completed, you're now ready to use the {app-name}.
 At this point, you'll be on the _"All Files"_ screen, which you see below.
 
-image:android-all-files-overview.png[{app-name}: All files overview, width=80%,pdfwidth=80%]
+image:connecting/android-all-files-overview.png[{app-name}: All files overview, width=80%,pdfwidth=80%]
 
 By clicking the main menu at the top left, you will be able to manage the core functionality of the app. The options are:
 

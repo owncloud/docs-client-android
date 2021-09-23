@@ -17,7 +17,7 @@ image:android-settings-page.png[The Settings Screen in the {app-name}, width=40%
 
 If you take photos or create videos with your Android device, they can be automatically uploaded to your ownCloud server. To enable this, under _"Camera uploads"_ tap one or both of _Picture uploads_ or _Video uploads_.
 
-image:android-settings-camera-upload.png[{app-name} settings - picture and video upload configuration, width=40%,pdfwidth=40%]
+image:settings/android-settings-camera-upload.png[{app-name} settings - picture and video upload configuration, width=40%,pdfwidth=40%]
 
 By enabling these features any new photos or videos which you create will be automatically uploaded every 15 minutes. Photos and videos are not uploaded when they’re created, to focus on reliability, instead of immediacy, and to avoid battery draining caused by excessive checking of the camera folder.
 
