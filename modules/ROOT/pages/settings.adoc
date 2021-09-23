@@ -11,7 +11,7 @@ This section describes how to view and control settings in the {app-name}.
 
 Use the _"Settings"_ screen to control your ownCloud applications settings and functionality.
 
-image:android-settings-page.png[The Settings Screen in the {app-name}, width=40%,pdfwidth=40%]
+image:settings/android-settings-page.png[The Settings Screen in the {app-name}, width=40%,pdfwidth=40%]
 
 === Camera Uploads
 
