@@ -1,6 +1,6 @@
 name: andriod
 title: Mobile App for Andriod
-version: 'next'
+version: '2.18'
 start_page: ROOT:index.adoc
 nav:
 - modules/ROOT/nav.adoc
