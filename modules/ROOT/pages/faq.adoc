@@ -1,10 +1,11 @@
 = Android Frequently Asked Questions (FAQ)
-:hardbreaks:
+:toc: right
+
+// :hardbreaks:
 :oauth2-app-url: https://marketplace.owncloud.com/apps/oauth2
 :android-legacy-central-url: https://central.owncloud.org/t/local-copy-could-not-be-renamed-try-a-different-name/16715/2
 :android-app-tx-url: https://www.transifex.com/owncloud-org/owncloud/android/
 :android-app-beta-url: https://owncloud.com/beta-testing/#android
-:toc: right
 
 == Introduction
 
@@ -12,7 +13,7 @@ Here you can find some of the most frequently asked questions about the ownCloud
 
 == Usage
 
-=== Compatibility with older ownCloud server
+=== Minimum ownCloud Server Version
 
 ownCloud Android app 2.15 has minimum requirement of ownCloud server 10.0 or later.
 
@@ -20,37 +21,37 @@ ownCloud Android app 2.9 has minimum requirement ownCloud server 9.0 or later.
 
 Check {android-legacy-central-url}[this post in the community forum] how to install older versions.
 
-=== Compatibility with older Android version
+=== Minimum Android Version
 
-ownCloud Android app 2.15 has minimum requirement of Android 5.0 or later. Check {android-legacy-central-url}[this post in the community forum] how to install older versions.
+ownCloud Android app 2.15 and higher has a minimum requirement of Android 5.0 or later. Check {android-legacy-central-url}[this post in the community forum] how to install older versions.
 
-=== Login with TOTP and other 2FA
+=== Login With TOTP and Other 2FA
 
 ownCloud server must have {oauth2-app-url}[the OAuth2 app] installed, configured, and enabled to use Two-Factor Authentication.
 Please contact your ownCloud administrator for more details.
 
 == Feature Requests
 
-=== Detect and upload changes from local file system
+=== Detect and Upload Changes From Local File System
 
 Local changes get upload when you add files inside the app, or a 3rd party app sends a file to the ownCloud app, or a 3rd party app adds/edits files via the document provider.
 
 Local changes won't be uploaded when 3rd party apps directly access the file system. Android will prevent direct file system access in the near future (Scoped Storage)
 
-=== Prevent direct access to local sync directory
+=== Prevent Direct Access to Local Sync Directory
 
 Android will prevent direct file system access in the near future. ownCloud Android app will switch to Scoped Storage, so 3rd party apps can only access via the document provider.
 
-=== Store local sync directory on SD card
+=== Store Local Sync Directory on SD Card
 
 This feature is not on the roadmap of the ownCloud Android app.
 
-=== Missing translations or translation bugs
+=== Missing Translations or Translation Bugs
 
 You can help translate in your language or fix a bug.
 
 We use Transifex for translations. Please {android-app-tx-url}[register here] for an account and join the global community.
 
-=== Testing new features
+=== Testing New Features
 
 Use {android-app-beta-url}[this link] to join the beta program on Android.

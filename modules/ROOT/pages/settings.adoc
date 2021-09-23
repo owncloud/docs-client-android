@@ -1,10 +1,13 @@
 = Application Settings
-
 :toc: right
-:toclevels: 1
+
 :app-name: ownCloud Android App
 
 == Introduction
+
+This section describes how to view and control settings in the {app-name}.
+
+== Settings View
 
 Use the _"Settings"_ screen to control your ownCloud applications settings and functionality.
 

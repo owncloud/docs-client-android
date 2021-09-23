@@ -38,7 +38,7 @@ If your issue is an app crash, also the Logcat log can be helpful. To get it:
 
 Deleting the history before getting logs is a good practice that will help the team to debug the problem, avoiding unnecessary noise.
 
-### ownCloud server Log File
+### ownCloud Server Log File
 
 The ownCloud server also maintains an ownCloud specific log file. This log file must be enabled through the ownCloud Administration page. On that page, you can adjust the log level. We recommend that when setting the log file level that you set it to a verbose level like `Debug` or `Info`.
 

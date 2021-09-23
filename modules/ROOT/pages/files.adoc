@@ -1,8 +1,11 @@
 = Managing Files
-
 :toc: right
-:toclevels: 1
+
 :app-name: ownCloud Android App
+
+== Introduction
+
+This section describes how to manage files in the {app-name}.
 
 == All Files View
 

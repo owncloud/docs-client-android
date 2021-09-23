@@ -1,6 +1,5 @@
 * xref:index.adoc[Introduction]
-// * xref:main.adoc[Using the Android App]
-* xref:installation.adoc[Getting the ownCloud Android App]
+* xref:installation.adoc[Installing the ownCloud Android App]
 * xref:connecting.adoc[Connecting to Your ownCloud]
 * xref:accounts.adoc[Managing User Accounts]
 * xref:files.adoc[Managing Your Files]

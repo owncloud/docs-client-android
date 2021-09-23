@@ -1,13 +1,16 @@
 = Connecting to Your ownCloud
-
 :toc: right
-:toclevels: 1
+
 :app-name: ownCloud Android App
 :create-self-signed-ssl-cert: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04
 :enable-ssl-url: http://info.ssl.com/article.aspx?id=10241
 :oauth2-app-url: https://marketplace.owncloud.com/apps/oauth2
 
-== Installing
+== Introduction
+
+This section describes how to connect the {app-name} to your ownCloud.
+
+== Connecting
 
 The first time you run your ownCloud Android app, it opens to a configuration screen.
 Enter your server URL, login name, password, and click the btn:[Connect] button.

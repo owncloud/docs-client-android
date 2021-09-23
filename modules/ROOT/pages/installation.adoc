@@ -1,14 +1,13 @@
 = Installing the ownCloud Android App
-
 :toc: right
-:toclevels: 1
+
 :app-name: ownCloud Android App
 :owncloud-mobile-download-url: http://owncloud.org/install/#mobile
 :play-store-url: https://play.google.com/store/apps/details?id=com.owncloud.android
 
 == Introduction
 
-This section describes wow to install and upgrade the {app-name}.
+This section describes how to install and upgrade the {app-name}.
 
 == Installation
 
