@@ -1,5 +1,7 @@
 = Troubleshooting
 :toc: right
+:page-aliases: troubleshooting.adoc
+
 :owncloud-android-support-mail: android-app@owncloud.com
 :owncloud-github-android-repo-url: https://github.com/owncloud/android
 :owncloud-central-url: https://central.owncloud.org/
