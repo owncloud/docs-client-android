@@ -1,4 +1,6 @@
 = Release Notes
+:page-aliases: release_notes.adoc
+
 :dav4jvm-url: https://gitlab.com/bitfireAT/dav4jvm
 :okhttp-url: http://square.github.io/okhttp/
 
