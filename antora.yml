@@ -1,4 +1,4 @@
-name: andriod
+name: android
 title: Mobile App for Andriod
 version: 'next'
 start_page: ROOT:index.adoc
