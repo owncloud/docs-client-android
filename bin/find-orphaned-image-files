@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #
-# This script checks the ownCloud iOS app documentation manual to 
+# This script checks the ownCloud android app documentation manual to 
 # see if any of the example files are orphaned.
 #
 
