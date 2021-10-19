@@ -1,6 +1,6 @@
-# Create a New Version Branch for the iOS App
+# Create a New Version Branch for the Android App
 
-When doing a new release for the iiOS App like `11.x`, a new version branch must be created based on `master`. It is necessary to do this in four steps. Please set the new and former version numbers accordingly
+When doing a new release for the Android App like `11.x`, a new version branch must be created based on `master`. It is necessary to do this in four steps. Please set the new and former version numbers accordingly
 
 **Step 1: Create and configure the new `11.x` branch**
 
