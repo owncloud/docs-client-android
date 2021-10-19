@@ -1,5 +1,5 @@
 name: android
-title: Mobile App for Andriod
+title: Mobile App for Android
 version: 'next'
 start_page: ROOT:index.adoc
 nav:
