@@ -27,4 +27,5 @@ asciidoc:
     previous-android-version: 2.18
   extensions:
     - ./lib/extensions/tabs.js
+    - ./lib/extensions/remote-include-processor.js
     - ./node_modules/asciidoctor-kroki/src/asciidoctor-kroki.js
