@@ -101,7 +101,7 @@ image:files/select-multiple-files.png[{app-name}: Select multiple files, width=4
 
 == Uploading Files Taken From the Camera
 
-Pictures and videos can be uploaded from your smartphone after choosing the folder where they are stored. To specify where they are located, in the _"Settings"_ options, under xref:setings.adoc#camera-uploads[Camera uploads], enable one of _"Picture uploads"_ or _"Video uploads"_. After that, a further option called _"Camera folder"_ will become visible, as in the screenshot below.
+Pictures and videos can be uploaded from your smartphone after choosing the folder where they are stored. To specify where they are located, in the _"Settings"_ options, under xref:settings.adoc#camera-uploads[Camera uploads], enable one of _"Picture uploads"_ or _"Video uploads"_. After that, a further option called _"Camera folder"_ will become visible, as in the screenshot below.
 
 image:files/specify-camera-folder.png[{app-name}: Specify camera folder, width=40%,pdfwidth=40%]
 
