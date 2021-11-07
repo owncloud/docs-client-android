@@ -31,7 +31,7 @@ By clicking the main menu at the top left, you will be able to manage the core f
 
 * xref:accounts.adoc[Manage Users Accounts]
 * xref:files.adoc#current-uploads[Current Uploads]
-* xref:files.adoc#all_files_view[All Files View]
+* xref:files.adoc#all-files-view[All Files View]
 * xref:settings.adoc[Application Settings]
 
 [NOTE]
