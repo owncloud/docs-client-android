@@ -32,8 +32,8 @@ The first time that you use the Android app, you will see the _"New Features Wiz
 
 The new features covered in the wizard are:
 
-* xref:settings.adoc#passcode_locks_pins[Passcode Locks & Pins]
-* xref:settings.adoc#pattern_and_fingerprint_lock[Fingerprint Lock]
+* xref:settings.adoc#passcode-locks-pins[Passcode Locks & Pins]
+* xref:settings.adoc#pattern-lock-and-fingerprint-lock[Fingerprint Lock]
 * xref:files.adoc#gif-support[GIF Support]
 * xref:files.adoc#upload-pictures-directly-from-the-camera[Upload Pictures Directly From The Camera]
 

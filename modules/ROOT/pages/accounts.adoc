@@ -13,7 +13,7 @@ Then, click btn:[Manage accounts]. From there, you can see all of the currently 
 
 == Adding Accounts
 
-To add a new account is identical to creating the first account. Click btn:[Add account], and then follow the instructions in xref:connecting-to-your-owncloud-server[Connecting to Your ownCloud Server].
+To add a new account is identical to creating the first account. Click btn:[Add account], and then follow the instructions in xref:connecting.adoc#connecting[Connecting to Your ownCloud Server].
 
 == Viewing Accounts
 
