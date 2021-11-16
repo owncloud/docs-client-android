@@ -26,6 +26,18 @@ When you download your {app-name} from the Google Play store, it will be upgrade
 It will either update automatically or give you a notification that an upgrade is available.
 If you are using an ownCloud Android app from a custom repository, e.g., your employer, then it will update in accordance with their policies.
 
+[NOTE]
+====
+When upgrading from a release lower than 2.19, the app is using Scoped Storage instead of Shared Storage. See xref:connecting.adoc#physical-location-of-user-files[Physical Location of User Files] for more details.
+
+The upgrade process takes care of transferring all files one by one from Shared Storage to Scoped Storage and deleting them from Shared Storage after a successful move of each file. The transition does not require user interaction, runs automatically and only needs to be performed once.
+====
+
+[WARNING]
+====
+Do not power off you device while an upgrade runs the migration process from Shared Storage to Scoped Storage. If this happens even accidentally, ownCloud recommends to disconnect all connections and manually delete all Shared Storage data. When finished, set up all connections once more, which are then automatically using Scoped Storage.
+====
+
 == New Features Wizard
 
 The first time that you use the Android app, you will see the _"New Features Wizard"_. The wizard, similar to wizards in other applications and operating systems, gives you a quick overview of the new features in the {app-name}, so that you’re familiar with them as quickly as possible.
