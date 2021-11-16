@@ -1,14 +1,26 @@
 = Connecting to Your ownCloud
 :toc: right
-
 :app-name: ownCloud Android App
 :create-self-signed-ssl-cert: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04
 :enable-ssl-url: http://info.ssl.com/article.aspx?id=10241
 :oauth2-app-url: https://marketplace.owncloud.com/apps/oauth2
+:document-provider-url: https://developer.android.com/guide/topics/providers/document-provider
 
 == Introduction
 
 This section describes how to connect the {app-name} to your ownCloud.
+
+== Physical Location of User Files
+
+Compared to earlier versions of this app (< 2.19), the location for files created or managed by this app is called *Scoped Storage*. Scoped Storage is, in contrast to Shared Storage, protected and part of the app. It is saved in the device's storage (persistent memory) and limited by its capacity. Files are now safe and private and can only be accessed by other apps that use the {document-provider-url}[Documents Provider]. Internal tests have successfully passed using more than 50GB of Scoped Storage without any issues.
+
+""
+Document provider — A content provider that allows a storage service to reveal the files it manages
+""
+
+When a connection is removed or the app is uninstalled, all files are removed for that connection or the whole app by design - securing data privacy.
+
+NOTE: Consider if there is  there's enough _internal storage capacity_ for your files to be synced by the app. As a rule of thumb, check the capacity necessary via the ownCloud web access first before enabling a sync for a particular mount and or path using offline access for files.
 
 == Connecting
 
