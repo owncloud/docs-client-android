@@ -34,13 +34,11 @@ Please contact your ownCloud administrator for more details.
 
 === Detect and Upload Changes From Local File System
 
-Local changes get upload when you add files inside the app, or a 3rd party app sends a file to the ownCloud app, or a 3rd party app adds/edits files via the document provider.
-
-Local changes won't be uploaded when 3rd party apps directly access the file system. Android will prevent direct file system access in the near future (Scoped Storage)
+Local changes get recognized and uploaded when you add files inside the app, or a 3rd party app sends a file to the ownCloud app, or a 3rd party app adds/edits files via the document provider.
 
 === Prevent Direct Access to Local Sync Directory
 
-Android will prevent direct file system access in the near future. ownCloud Android app will switch to Scoped Storage, so 3rd party apps can only access via the document provider.
+Starting with app version 2.19, ownCloud has made the transition to switch to Scoped Storage. 3rd party apps can access files only via the document provider mechanism. See xref:connecting.adoc#physical-location-of-user-files[Physical Location of User Files] for more details.
 
 === Store Local Sync Directory on SD Card
 
