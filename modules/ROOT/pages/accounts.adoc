@@ -33,7 +33,7 @@ This action also logs you out of the server and deletes the database with the li
 
 image:accounts/android-remove-account-confirmation.jpg[{app-name}: Confirm removal of user account, width=40%,pdfwidth=40%]
 
-NOTE: There is no logout function that both logs out of your account *and* leaves all your files on your Android device.
+NOTE: When removing an account, the files related to that account are removed automatically. This is also true when uninstalling the app which removes all accounts with their data.
 
 == Change User Passwords
 
