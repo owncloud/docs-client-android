@@ -1,33 +1,27 @@
 #!/usr/bin/env bash
 
 #
-# This script checks the ownCloud android app documentation manual to 
-# see if any of the example files are orphaned.
+# This script checks the ownCloud documentation manual(s) to 
+# see if example files are orphaned.
+# The file is included by another script which defines the variables needed !
 #
+# Note that filenames MUST NOT contain blanks
 
-AVAILABLE_MANUAL=( ROOT )
+AVAILABLE_MANUALS=( ROOT )
+ROOT_NAME="ROOT"
+BASE_DIR=""
+MANUAL_POSTFIX="_manual"
+TASK="EXAMPLE"
+TARGET_DIR="examples"
+# depending on the target, there may be a trailing slash necessary or not
+# check how the file is included
+SEARCH_PATTERN='include::{examplesdir}'
 
-echo
-echo "Checking for orphaned EXAMPLE files in manual: ${AVAILABLE_MANUAL}"
-echo "Please run this scrip from your docs root"
-echo
+# get the full path the the directory the script runs
+DIR="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 
-for manual in "${AVAILABLE_MANUAL[@]}"; do
-    [[ ! -e "./modules/${manual}/" ]] && echo "Cannot find ${manual} manual." && continue
+# load the working script
+source ${DIR}/find-orphaned-base
 
-    echo -e "\e[1;32mChecking the ${manual} manual \e[0m"
-    find "./modules/${manual}/examples/" \
-        \( -path "**/.DS_Store" -o -path "**/vendor" -o -path "**/.gitkeep" \) -prune -o \
-        -type f \
-        -exec bash -c 'grep -rnq -E "include:.*$(basename $0 | sed "s/\./\\./")" ./modules/$1/pages || echo "$0"' {} "${manual}" \;
-    echo
-done
-
-echo -e "\e[1;32mCheck completed. \e[0m"
-echo
-echo "Please consider that files may have been added intentionally but have currently not been included in the documentation."
-echo
-echo "You may want to check the orphan history via:"
-echo
-echo "git log --full-history -- full_path_file_from_above"
-echo
+# start scanning
+start_scan
