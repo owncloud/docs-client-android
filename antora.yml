@@ -3,7 +3,7 @@ title: Mobile App for Android
 version: 'next'
 start_page: ROOT:index.adoc
 nav:
-- modules/ROOT/nav.adoc
+- modules/ROOT/partials/nav.adoc
 
 asciidoc:
   attributes:
