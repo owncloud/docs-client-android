@@ -268,7 +268,7 @@ function build_pdf_manual()
 #	param+='-a experimental="" ' #   experimental already set in site.yml
 	param+='-a examplesdir='$(pwd)/modules/${source_root}/examples/' '
 	param+='-a imagesdir='$(pwd)/modules/${source_root}/images/' '
-	param+='-a partialsdir='$(pwd)/modules/${source_root}/pages/_partials/' '
+	param+='-a partialsdir='$(pwd)/modules/${source_root}/partials/' '
 	param+='-a revnumber='${branch}' '
 	param+='-a revdate="'${release_date}'" '
 	param+='-a allow-uri-read="" '
