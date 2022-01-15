@@ -25,7 +25,7 @@ When doing a new release for the Android App like `2.x`, a new version branch mu
 14. Commit changes and push it
 15. Create a Pull Request. When CI is green, all is done correctly. Merge the PR to master.
 
-**Step 3: Set the correct Desktop build branches in the docs repo**
+**Step 3: Set the correct Android build branches in the docs repo**
 
 16. In `site.yml` of [docs](https://github.com/owncloud/docs/blob/master/site.yml) adjust the last **two** branches at `url: https://github.com/owncloud/docs-client-android.git` accordingly (in section `content.sources.url.branches`)
 
@@ -42,7 +42,7 @@ These are the changes necessary to finalize the creation of the 2.x branch.
 
 The 2.x branch is already pushed and prepared and is included in the branch protection rules.
 
-When 2.x (Desktop) is finally out, the 2.x-2 branch can be archived,
+When 2.x (Android) is finally out, the 2.x-2 branch can be archived,
 see step 4 in https://github.com/owncloud/docs-client-android/blob/master/docs/new-version-branch.md
 
 Note, that the 2.x branch in this repo is already created, but the `latest` pointer on the web
