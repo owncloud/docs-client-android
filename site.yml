@@ -23,8 +23,8 @@ asciidoc:
     idprefix: ''
     idseparator: '-'
     experimental: ''
-    latest-android-version: '2.19'
-    previous-android-version: '2.18'
+    latest-android-version: '2.20'
+    previous-android-version: '2.19'
   extensions:
     - ./lib/extensions/tabs.js
     - ./lib/extensions/remote-include-processor.js
