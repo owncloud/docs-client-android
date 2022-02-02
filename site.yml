@@ -2,6 +2,7 @@
 site:
   title: ownCloud Android App Documentation
   url: https://doc.owncloud.com
+  start_page: android::index.adoc
 
 content:
   sources:
