@@ -2,10 +2,11 @@
 :toc: right
 
 :app-name: ownCloud Android App
+:description: This section describes how to view and control settings in the {app-name}.
 
 == Introduction
 
-This section describes how to view and control settings in the {app-name}.
+{description}
 
 == Settings View
 

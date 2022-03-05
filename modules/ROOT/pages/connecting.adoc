@@ -6,9 +6,11 @@
 :oauth2-app-url: https://marketplace.owncloud.com/apps/oauth2
 :document-provider-url: https://developer.android.com/guide/topics/providers/document-provider
 
+:description: This section describes how to connect the {app-name} to your ownCloud.
+
 == Introduction
 
-This section describes how to connect the {app-name} to your ownCloud.
+{description}
 
 == Physical Location of User Files
 

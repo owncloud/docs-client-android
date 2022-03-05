@@ -3,9 +3,15 @@
 
 :app-name: ownCloud Android App
 
+:description: This guide describes how to manage user accounts in your Android App. Initially the path to the accounts section isn't visible and you have to open it first.
+
 == Introduction
 
-Initially the path to the accounts section isn't visible. To get to it, first click the btn:[down arrow], in the user details section, which will replace the _"All Files"_ and _"Uploads"_ buttons with _"Add account"_ and _"Manage accounts"_.
+{description}
+
+== Open the Accounts Section
+
+To open the accounts section, first click the btn:[down arrow], in the user details section, which will replace the _"All Files"_ and _"Uploads"_ buttons with _"Add account"_ and _"Manage accounts"_.
 
 image:accounts/manage-user-accounts.png[{app-name}: Manage user accounts, width=40%,pdfwidth=40%]
 
