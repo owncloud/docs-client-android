@@ -10,6 +10,12 @@
 :apache-docs-logging: http://httpd.apache.org/docs/current/logs.html
 :mitmproxy-url: https://mitmproxy.org/
 
+:description: This is a brief troubleshooting guide which will help you to get the data needed necessary for identifying the root cause.
+
+== Introduction
+
+{description}
+
 == Log Files
 
 Effectively debugging software requires as much relevant information as can be obtained. To assist the ownCloud support personnel, please try to provide as many relevant logs as possible. Log output can help with tracking down problems and, if you report a bug, log output can help to resolve an issue more quickly.
