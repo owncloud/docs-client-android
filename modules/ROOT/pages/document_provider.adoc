@@ -2,10 +2,11 @@
 :toc: right
 
 :app-name: ownCloud Android App
+:description: The Document provider is a feature that comes from the Storage Access Framework provided by Android. It allows a storage service such as ownCloud to reveal the files it manages.
 
 == Introduction
 
-The Document provider is a feature that comes from the Storage Access Framework provided by Android. It allows a storage service (such as owncloud) to reveal the files it manages.
+{description}
 
 == Document Provider Integration
 
