@@ -7,9 +7,11 @@
 :android-app-tx-url: https://www.transifex.com/owncloud-org/owncloud/android/
 :android-app-beta-url: https://owncloud.com/beta-testing/#android
 
+:description: Here you can find some of the most frequently asked questions about the ownCloud Android app.
+
 == Introduction
 
-Here you can find some of the most frequently asked questions about the ownCloud Android app.
+{description}
 
 == Usage
 
