@@ -2,7 +2,7 @@
 :toc: right
 
 :app-name: ownCloud Android App
-:owncloud-mobile-download-url: http://owncloud.org/install/#mobile
+:owncloud-mobile-download-url: https://owncloud.com/mobile-apps/
 :play-store-url: https://play.google.com/store/apps/details?id=com.owncloud.android
 
 :description: This section describes how to install and upgrade the {app-name}.
