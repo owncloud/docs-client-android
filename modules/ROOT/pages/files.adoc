@@ -23,6 +23,8 @@ When you are on your main Files page and you long press on any file or folder a 
 
 image:files/android-file-list-overflow-menu.jpg[{app-name}: File overflow menu, width=40%,pdfwidth=40%]
 
+NOTE: The file size values differ depending on the client you are using. Some operating systems like iOS and macOS use the decimal system (power of 10) where 1kB or one kilobyte consists of 1000 bytes, while Linux, Android and Windows use the binary system (power of 2) where 1KB consists of 1024 bytes and is called a kibibyte. So no reason to worry if you see different file sizes in ownCloud Web and on your mobile device.
+
 == Sharing Files
 
 You can share with other ownCloud users and groups, and create public or private share links.
