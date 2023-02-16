@@ -1,13 +1,11 @@
 = Android Frequently Asked Questions (FAQ)
 :toc: right
+:description: Here you can find some of the most frequently asked questions about the ownCloud Android app.
 
-// :hardbreaks:
 :oauth2-app-url: https://marketplace.owncloud.com/apps/oauth2
 :android-legacy-central-url: https://central.owncloud.org/t/local-copy-could-not-be-renamed-try-a-different-name/16715/2
 :android-app-tx-url: https://www.transifex.com/owncloud-org/owncloud/android/
 :android-app-beta-url: https://owncloud.com/beta-testing/#android
-
-:description: Here you can find some of the most frequently asked questions about the ownCloud Android app.
 
 == Introduction
 

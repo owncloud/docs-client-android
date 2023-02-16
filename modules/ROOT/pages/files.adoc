@@ -1,27 +1,28 @@
 = Managing Files
 :toc: right
+:description: This section describes how to manage files in the ownCloud Android App.
 
 :app-name: ownCloud Android App
 
 == Introduction
 
-This section describes how to manage files in the {app-name}.
+{description}
 
 == All Files View
 
 When you are in the _"All Files"_ view, all files that you have permission to access on your ownCloud server are displayed in your Android app. However, they are not downloaded until you click on them. Downloaded files are marked with a green tick, on the top-right of the file's icon.
 
-image:files/android-all-files-view.jpg[{app-name}: All files view, width=40%,pdfwidth=40%]
+image::files/android-all-files-view.jpg[{app-name}: All files view, width=250]
 
 NOTE: Videos don’t need to be downloaded before they can be viewed, as they can be streamed to the device from your ownCloud server.
 
 Download and view a file with a short press on the file's name or icon. Then, a short press on the overflow button opens a menu with options for managing your file.
 
-image:files/android-file-overflow-menu.jpg[{app-name}: File list overflow menu, width=40%,pdfwidth=40%]
+image::files/android-file-overflow-menu.jpg[{app-name}: File list overflow menu, width=250]
 
 When you are on your main Files page and you long press on any file or folder a list of options appears, which you can see in the image below. Some of them appear in the top bar. The ones that don't fit in the top bar, appear in the list of options when pressing the overflow button.
 
-image:files/android-file-list-overflow-menu.jpg[{app-name}: File overflow menu, width=40%,pdfwidth=40%]
+image::files/android-file-list-overflow-menu.jpg[{app-name}: File overflow menu, width=150]
 
 NOTE: The file size values differ depending on the client you are using. Some operating systems like iOS and macOS use the decimal system (power of 10) where 1kB or one kilobyte consists of 1000 bytes, while Linux, Android and Windows use the binary system (power of 2) where 1KB consists of 1024 bytes and is called a kibibyte. So no reason to worry if you see different file sizes in ownCloud Web and on your mobile device.
 
@@ -38,7 +39,7 @@ To share a file, you first need to either:
 
 The dialog which appears shows a list of users and groups with whom the file is already shared, as well as a list of one or more public links.
 
-image:files/multiple_share_link.png[{app-name}: File and folder share settings, width=40%,pdfwidth=40%]
+image::files/multiple_share_link.png[{app-name}: File and folder share settings, width=250]
 
 From here you can:
 
@@ -58,7 +59,7 @@ NOTE: If your ownCloud server administrator has enabled username auto-completion
 
 You can create a Federated Share Link by entering the username and remote URL of the person you want to share with in this format: `user@domain.com`. You don't have to guess; the Personal page in the ownCloud Web GUI tells the exact Federated Cloud ID. Just ask them to copy and paste and send it to you.
 
-image:files/android-14.png[{app-name}: Share file with dialog, width=50%,pdfwidth=50%]
+image::files/android-14.png[{app-name}: Share file with dialog, width=350]
 
 To create a public link, click the btn:[plus symbol] next to _"Public Links"_. This will display the options available for that link, including _"Allow editing"_, _"Password"_, and _"Expiration"_. After the options have been suitably configured, click btn:[Save] to create the link.
 If you do not want to create the public link, click btn:[Cancel].
@@ -67,7 +68,7 @@ If you do not want to create the public link, click btn:[Cancel].
 
 If you upload animated GIFs, when viewing them, they will be animated and not render as a still image, as in the example GIF below.
 
-image:files/gif-support-owncloud-android-app.png[View animated GIFs in the ownCloud Android app., width=40%,pdfwidth=40%]
+image::files/gif-support-owncloud-android-app.png[View animated GIFs in the ownCloud Android app., width=250]
 
 == Creating New Content
 
@@ -75,11 +76,11 @@ To add new content to your ownCloud server, whether files, folders, or content f
 
 Then, use the btn:[Upload] button to add files to your ownCloud account from your Android filesystem, from other apps, or from every storage attached to your device
 
-image:files/android-4.png[{app-name}: Upload content, width=40%,pdfwidth=40%]
+image::files/android-4.png[{app-name}: Upload content, width=250]
 
 Click the btn:[overflow button] at the top right (that's the one with three vertical dots) to open a user menu. btn:[Grid view] toggles between grid and list view. btn:[Refresh account] syncs with the server, and btn:[Sort] gives you the option to sort your files by date, or alphabetically.
 
-image:files/android-6.png[{app-name}: User overflow menu, width=40%,pdfwidth=40%]
+image::files/android-6.png[{app-name}: User overflow menu, width=200]
 
 == Upload Pictures Directly From The Camera
 
@@ -88,9 +89,9 @@ image:files/android-6.png[{app-name}: User overflow menu, width=40%,pdfwidth=40%
 | Step 1
 | Step 2
 | Step 3
-a| image::files/share-from-camera-owncloud-android-app-step-1.png[Uploading pictures directly from the camera in the ownCloud Android app - step 1, width=80%,pdfwidth=80%]
-a| image:files/share-from-camera-owncloud-android-app-step-2.png[Uploading pictures directly from the camera in the ownCloud Android app - step 2, width=80%,pdfwidth=80%]
-a| image:files/share-from-camera-owncloud-android-app-step-3.jpg[Uploading pictures directly from the camera in the ownCloud Android app - step 3, width=80%,pdfwidth=80%]
+a| image::files/share-from-camera-owncloud-android-app-step-1.png[Uploading pictures directly from the camera in the ownCloud Android app - step 1, width=200]
+a| image::files/share-from-camera-owncloud-android-app-step-2.png[Uploading pictures directly from the camera in the ownCloud Android app - step 2, width=200]
+a| image::files/share-from-camera-owncloud-android-app-step-3.jpg[Uploading pictures directly from the camera in the ownCloud Android app - step 3, width=200]
 |===
 
 Images can be uploaded directly from the camera. To do so, similar to uploading a file or creating a new folder, when viewing all files, click the btn:[Plus] icon, then the btn:[Upload] button in the popup list (which is the first icon). From there, under btn:[Upload to ownCloud], click btn:[Picture from camera]. The camera app will then start, and the picture that you take can be directly uploaded to your ownCloud server.
@@ -99,13 +100,13 @@ Images can be uploaded directly from the camera. To do so, similar to uploading 
 
 The Android application can perform some operations on multiple files simultaneously, such as refreshing and deleting. To select multiple files, long select the first file that you want to work with; you will see a checkbox appear on the far right-hand side. After that, check the checkbox next to all the other files that you want to perform the same operation on, and then perform the operation.
 
-image:files/select-multiple-files.png[{app-name}: Select multiple files, width=40%,pdfwidth=40%]
+image::files/select-multiple-files.png[{app-name}: Select multiple files, width=250]
 
 == Uploading Files Taken From the Camera
 
 Pictures and videos can be uploaded from your smartphone after choosing the folder where they are stored. To specify where they are located, in the _"Settings"_ options, under xref:settings.adoc#camera-uploads[Camera uploads], enable one of _"Picture uploads"_ or _"Video uploads"_. After that, a further option called _"Camera folder"_ will become visible, as in the screenshot below.
 
-image:files/specify-camera-folder.png[{app-name}: Specify camera folder, width=40%,pdfwidth=40%]
+image::files/specify-camera-folder.png[{app-name}: Specify camera folder, width=250]
 
 == Current Uploads
 
@@ -113,7 +114,7 @@ The Uploads page displays the status of files currently uploading, a list of you
 
 If the upload fails because you're trying to upload to a folder that you do not have permission to access, you will see a _"Permissions error"_. Change the permissions on the folder and retry the upload, or cancel and then upload the file to a different folder.
 
-image:files/current-uploads.png[ownCloud Android app — Current Uploads view, width=40%,pdfwidth=40%]
+image::files/current-uploads.png[ownCloud Android app — Current Uploads view, width=250]
 
 == Make Folders Available Offline
 
@@ -124,5 +125,4 @@ Folders can be made available for when no internet or mobile connectivity is ava
 
 When the folders have been cached locally, the icon will change to be a purple circle with a white tick icon in the bottom right-hand corner, as in the screenshot below.
 
-image:files/files_folders_view.png[ownCloud Android app — Files and Folders view, width=40%,pdfwidth=40%]
-
+image::files/files_folders_view.png[ownCloud Android app — Files and Folders view, width=250]

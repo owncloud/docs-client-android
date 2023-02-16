@@ -1,9 +1,8 @@
 = Manage Users Accounts
 :toc: right
+:description: This guide describes how to manage user accounts in your Android App. Initially the path to the accounts section isn't visible and you have to open it first.
 
 :app-name: ownCloud Android App
-
-:description: This guide describes how to manage user accounts in your Android App. Initially the path to the accounts section isn't visible and you have to open it first.
 
 == Introduction
 
@@ -13,7 +12,7 @@
 
 To open the accounts section, first click the btn:[down arrow], in the user details section, which will replace the _"All Files"_ and _"Uploads"_ buttons with _"Add account"_ and _"Manage accounts"_.
 
-image:accounts/manage-user-accounts.png[{app-name}: Manage user accounts, width=40%,pdfwidth=40%]
+image::accounts/manage-user-accounts.png[{app-name}: Manage user accounts, width=300]
 
 Then, click btn:[Manage accounts]. From there, you can see all of the currently active user accounts, along with a button to add a new account.
 
@@ -29,7 +28,7 @@ After clicking btn:[Manage accounts], you will see a list of the currently activ
 * Change the user's password
 * Remove the account
 
-image:accounts/android-manage-accounts.jpg[{app-name}: Manage existing user accounts, width=40%,pdfwidth=40%]
+image::accounts/android-manage-accounts.jpg[{app-name}: Manage existing user accounts, width=300]
 
 == Removing Accounts & Logging Out
 
@@ -37,7 +36,7 @@ To remove an account, click the btn:[rubbish bin] icon, next to the key icon. Th
 
 This action also logs you out of the server and deletes the database with the list of files. However, any files downloaded onto the device prior to removal will still be there afterwards. You can find them in the public partition.
 
-image:accounts/android-remove-account-confirmation.jpg[{app-name}: Confirm removal of user account, width=40%,pdfwidth=40%]
+image::accounts/android-remove-account-confirmation.jpg[{app-name}: Confirm removal of user account, width=300]
 
 NOTE: When removing an account, the files related to that account are removed automatically. This is also true when uninstalling the app which removes all accounts with their data.
 
@@ -45,6 +44,6 @@ NOTE: When removing an account, the files related to that account are removed au
 
 To change a user's password, click the btn:[key] icon, next to the user's details. This will display the user details page, with the ownCloud server URI and user account, pre-filled. Enter a new password, and click btn:[Connect], and the password will be updated.
 
-image:accounts/android-13.png[{app-name}: Change user password, width=60%,pdfwidth=35%]
+image::accounts/android-13.png[{app-name}: Change user password, width=400]
 
 If you want extra security, please refer to the xref:settings.adoc#passcode-locks-pins[Passcode Locks & Pins] section.
