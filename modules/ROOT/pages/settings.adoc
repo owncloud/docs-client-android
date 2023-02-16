@@ -1,8 +1,8 @@
 = Application Settings
 :toc: right
+:description: This section describes how to view and control settings in the ownCloud Android App.
 
 :app-name: ownCloud Android App
-:description: This section describes how to view and control settings in the {app-name}.
 
 == Introduction
 
@@ -12,13 +12,13 @@
 
 Use the _"Settings"_ screen to control your ownCloud applications settings and functionality.
 
-image:settings/android-settings-page.png[The Settings Screen in the {app-name}, width=40%,pdfwidth=40%]
+image::settings/android-settings-page.png[The Settings Screen in the {app-name}, width=250]
 
 == Camera Uploads
 
 If you take photos or create videos with your Android device, they can be automatically uploaded to your ownCloud server. To enable this, under _"Camera uploads"_ tap _Picture uploads_ or _Video uploads_ or both. The following image shows the settings for the picture upload. The same settings are available on a separate screen for video uploads.
 
-image:settings/android-settings-camera-upload.png[{app-name} settings - picture and video upload configuration, width=40%,pdfwidth=40%]
+image::settings/android-settings-camera-upload.png[{app-name} settings - picture and video upload configuration, width=250]
 
 By enabling these features, any new photos or videos which you create will be automatically uploaded every 15 minutes. Photos and videos are not uploaded when they’re created, to focus on reliability, instead of immediacy, and to avoid battery draining caused by excessive checking of the camera folder.
 
@@ -41,7 +41,7 @@ To create a new folder, click the btn:[More options] menu, in the top right-hand
 
 By enabling the option (which you can see in the screenshot below), the {app-name} will not be obscured by any light filtering apps, which gives the choice of using them together. When it is enabled, security warning is enabled. 
 
-image:settings/allow-light-filtering-apps.png[Allow light filtering apps, width=40%,pdfwidth=40%]
+image::settings/allow-light-filtering-apps.png[Allow light filtering apps, width=250]
 
 == Logs
 
@@ -59,7 +59,7 @@ The following options are available to manage logs:
 
 Note, an automatically running task will remove logs older than a week to keep space requirements small.
 
-image:logs/show-logs-list.png[View logs in the {app-name}, width=40%,pdfwidth=40%]
+image::logs/show-logs-list.png[View logs in the {app-name}, width=250]
 
 To view details or search inside a log file, tap on the respective entry in the log list. Three things can happen:
 
@@ -67,19 +67,19 @@ To view details or search inside a log file, tap on the respective entry in the 
 +
 If this occurs, install a log reading app of your choice.
 +
-image:logs/no-log-reading-app-found.png[No log reading app found, width=40%,pdfwidth=40%]
+image::logs/no-log-reading-app-found.png[No log reading app found, width=250]
 
 . Exactly one log reading app is installed
 +
 The log reading app opens and the log is shown. The example image shows the `Log Viewer` app.
 +
-image:logs/log-viewer-opened.png[Log Viewer opened with log selected, width=40%,pdfwidth=40%]
+image::logs/log-viewer-opened.png[Log Viewer opened with log selected, width=250]
 
 . Select a log reading app from the list of available ones
 +
 After selecting the app, the log is opened by the app selected.
 +
-image:logs/select-log-reading-app.png[Select a logs reading app from the list, width=40%,pdfwidth=40%]
+image::logs/select-log-reading-app.png[Select a logs reading app from the list, width=250]
 
 == Access Protection
 
@@ -100,9 +100,9 @@ In addition to the Passcode Lock and Pins, you also have the ability to use both
 
 NOTE: To use the Fingerprint Lock, the Pattern Lock has to be enabled.
 
-image:security/fingerprint-and-pattern-lock-enabled-disabled-owncloud-android-app.png[Enable or disable the Fingerprint and Pattern Lock in the ownCloud Android app., width=40%,pdfwidth=40%]
+image::security/fingerprint-and-pattern-lock-enabled-disabled-owncloud-android-app.png[Enable or disable the Fingerprint and Pattern Lock in the ownCloud Android app., width=400]
 
-image:security/fingerprint-and-pattern-lock-owncloud-android-app.png[The Pattern Lock and Fingerprint Lock in the ownCloud Android app., width=40%,pdfwidth=40%]
+image::security/fingerprint-and-pattern-lock-owncloud-android-app.png[The Pattern Lock and Fingerprint Lock in the ownCloud Android app., width=250]
 
 After you enable the pattern lock, you will need to create a pattern and then confirm it to access the ownCloud app, just as you would if you've enabled that for access to the phone itself. If you later disable pattern lock, you will need to enter your pattern again.
 

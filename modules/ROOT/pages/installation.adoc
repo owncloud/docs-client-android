@@ -1,11 +1,10 @@
 = Installing the ownCloud Android App
 :toc: right
+:description: This section describes how to install and upgrade the ownCloud Android App.
 
 :app-name: ownCloud Android App
 :owncloud-mobile-download-url: https://owncloud.com/mobile-apps/
 :play-store-url: https://play.google.com/store/apps/details?id=com.owncloud.android
-
-:description: This section describes how to install and upgrade the {app-name}.
 
 == Introduction
 
@@ -17,7 +16,7 @@ One way to get your ownCloud Android app is to log into your ownCloud server fro
 
 The first time you log into a new ownCloud account, you'll see a screen with a download link to the {app-name} in the {play-store-url}[Google Play Store].
 
-image:installation/android-1.png[Download the ownCloud Android app in the Google Play store, width=40%,pdfwidth=40%]
+image::installation/android-1.png[Download the ownCloud Android app in the Google Play store, width=300]
 
 You will also find these links on your Personal page in the ownCloud Web interface. Find source code and more information from the {owncloud-mobile-download-url}[ownCloud download page]. Users of customized ownCloud Android apps, for example from their employer, should follow their employer's instructions.
 
@@ -51,5 +50,5 @@ The new features covered in the wizard are:
 * xref:files.adoc#gif-support[GIF Support]
 * xref:files.adoc#upload-pictures-directly-from-the-camera[Upload Pictures Directly From The Camera]
 
-image:installation/new-features-wizard-step-owncloud-android-app.png[The
-New Features Wizard in the ownCloud Android app., width=80%,pdfwidth=80%]
+image::installation/new-features-wizard-step-owncloud-android-app.png[The
+New Features Wizard in the ownCloud Android app., width=500]
