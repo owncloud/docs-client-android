@@ -1,5 +1,6 @@
 = Troubleshooting
 :toc: right
+:description: This is a brief troubleshooting guide which will help you get the data necessary for identifying the root cause.
 :page-aliases: troubleshooting.adoc
 
 :owncloud-android-support-mail: android-app@owncloud.com
@@ -9,8 +10,6 @@
 :owncloud-docs-server-tracing: https://doc.owncloud.com/server/admin_manual/configuration/server/request_tracing.html
 :apache-docs-logging: http://httpd.apache.org/docs/current/logs.html
 :mitmproxy-url: https://mitmproxy.org/
-
-:description: This is a brief troubleshooting guide which will help you get the data necessary for identifying the root cause.
 
 == Introduction
 
@@ -71,4 +70,4 @@ Please see the {apache-docs-logging}[Apache logging] pages to get more informati
 
 {mitmproxy-url}[mitmproxy] is an interactive man-in-the-middle proxy for HTTP and HTTPS with a console interface. At ownCloud we use it a lot to investigate every detail of HTTP requests and responses.
 
-image:troubleshooting/mitmproxy_screenshot.png[mitmproxy sample output, width=100%,pdfwidth=100%]
+image::troubleshooting/mitmproxy_screenshot.png[mitmproxy sample output, width=400]

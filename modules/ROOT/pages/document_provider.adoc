@@ -1,8 +1,8 @@
 = Document Provider Integration
 :toc: right
+:description: The Document provider is a feature that comes from the Storage Access Framework provided by Android. It allows a storage service such as ownCloud to reveal the files it manages.
 
 :app-name: ownCloud Android App
-:description: The Document provider is a feature that comes from the Storage Access Framework provided by Android. It allows a storage service such as ownCloud to reveal the files it manages.
 
 == Introduction
 
@@ -10,11 +10,11 @@
 
 == Document Provider Integration
 
-image:document-provider/step-1.png[{app-name} Document provider integration - step 1, width=40%,pdfwidth=40%]
+image::document-provider/step-1.png[{app-name} Document provider integration - step 1, width=250]
 
 To use it we only need to open Downloads app in Android 7 and 8 or Files app in Android 9 and select the ownCloud account appearing in the side menu.
 
-image:document-provider/step-2.png[{app-name} Document provider integration - step 2, width=40%,pdfwidth=40%]
+image::document-provider/step-2.png[{app-name} Document provider integration - step 2, width=250]
 
 Once you select the account you will have access to your file list. In there, you can perform the following actions: 
 
