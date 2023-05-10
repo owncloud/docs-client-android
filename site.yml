@@ -28,8 +28,8 @@ asciidoc:
     idseparator: '-'
     experimental: ''
 #   android
-    latest-android-version: '3.0'
-    previous-android-version: '2.21'
+    latest-android-version: '4.0'
+    previous-android-version: '3.0'
   extensions:
     - ./lib/extensions/tabs.js
     - ./lib/extensions/remote-include-processor.js
