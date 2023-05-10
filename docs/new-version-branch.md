@@ -38,27 +38,22 @@ When doing a new release for the Android App like `2.x`, a new version branch mu
 
 The following text is a copy/paste suggestion for the PR in step 2, replace the branch numbers accordingly:
 ```
-These are the changes necessary to finalize the creation of the 2.x branch.
+These are the changes necessary to finalize the creation of the 4.x branch.
 
-The 2.x branch is already pushed and prepared and is included in the branch protection rules.
+The 4.x branch is already pushed and prepared and is included in the branch protection rules.
 
-When 2.x (Android) is finally out, the 2.x-2 branch can be archived,
-see step 4 in https://github.com/owncloud/docs-client-android/blob/master/docs/new-version-branch.md
+When 4.x (Android) is finally out, the 3.x-2 branch can be archived, see step 4 in https://github.com/owncloud/docs-client-android/blob/master/docs/new-version-branch.md
 
-Note, that the 2.x branch in this repo is already created, but the `latest` pointer on the web
-will be set to it automatically when the tag in Desktop is set. This means, that in the docs homepage,
-`latest` will point to 2.x-1 until the tag in Desktop is set accordingly. When merging this PR,
-2.x-2 will be dropped from the web but is available via pdf as usual.
+Note, that the 4.x branch in this repo is already created, but the `latest` pointer on the web will be set to it automatically when the tag in Android is set. This means, that in the docs homepage, `latest` will point to 3.x-1 until the tag in Android is set accordingly. When merging this PR, 3.x-2 will be dropped from the web but is available via pdf as usual.
 
-Note, this PR must be merged before the 2.x tag in the Android repo is set to avoid a 404 for `latest`.
+Note, this PR must be merged before the 4.x tag in the Android repo is set to avoid a 404 for `latest`.
 
-Note that a PR in docs must be made to announce the 2.x branch. The docs PR must be merged AFTER this PR is merged to avoid a CI error in docs.
+Note that a PR in docs must be made to announce the 4.x branch. The docs PR must be merged AFTER this PR is merged to avoid a CI error in docs.
 
-Before merging this PR, we should take care that 2.x-2 has all changes necessary merged as post
-merging the 2.x-2 pdf is fixed.
+Before merging this PR, we should take care that 3.x-2 has all changes necessary merged as post merging the 3.x-2 pdf is fixed.
 
-@michaelstingl @jesmrec fyi
+@michaelstingl @JuancaG05 fyi
 
 @mmattel @EParzefall @phil-davis
-post merging this, we need to backport all relevant changes to 2.x
+post merging this, we need to backport all relevant changes to 4.x
 ```
