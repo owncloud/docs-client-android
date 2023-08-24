@@ -6,7 +6,7 @@ def main(ctx):
     # Version shown as latest in generated documentations
     # It's fine that this is out of date in version branches, usually just needs
     # adjustment in master/deployment_branch when a new version is added to site.yml
-    latest_version = "4.0"
+    latest_version = "4.1"
     default_branch = "master"
 
     # Current version branch (used to determine when changes are supposed to be pushed)
@@ -17,7 +17,7 @@ def main(ctx):
     # Version branches never deploy themselves, but instead trigger a deployment in deployment_branch
     # This must not be changed in version branches
     deployment_branch = default_branch
-    pdf_branch = default_branch
+    pdf_branch = base_branch
 
     return [
         checkStarlark(),
@@ -77,7 +77,7 @@ def build(ctx, environment, latest_version, deployment_branch, base_branch, pdf_
                 "pull": "always",
                 "image": "plugins/s3-cache:1",
                 "settings": {
-                    "endpoint": from_secret("cache_s3_server"),
+                    "endpoint": from_secret("cache_s3_endpoint"),
                     "access_key": from_secret("cache_s3_access_key"),
                     "secret_key": from_secret("cache_s3_secret_key"),
                     "restore": "true",
@@ -120,7 +120,7 @@ def build(ctx, environment, latest_version, deployment_branch, base_branch, pdf_
                 "pull": "always",
                 "image": "plugins/s3-cache:1",
                 "settings": {
-                    "endpoint": from_secret("cache_s3_server"),
+                    "endpoint": from_secret("cache_s3_endpoint"),
                     "access_key": from_secret("cache_s3_access_key"),
                     "secret_key": from_secret("cache_s3_secret_key"),
                     "rebuild": "true",
@@ -144,7 +144,7 @@ def build(ctx, environment, latest_version, deployment_branch, base_branch, pdf_
                 "pull": "always",
                 "image": "plugins/s3-cache:1",
                 "settings": {
-                    "endpoint": from_secret("cache_s3_server"),
+                    "endpoint": from_secret("cache_s3_endpoint"),
                     "access_key": from_secret("cache_s3_access_key"),
                     "secret_key": from_secret("cache_s3_secret_key"),
                     "flush": "true",
@@ -185,7 +185,7 @@ def build(ctx, environment, latest_version, deployment_branch, base_branch, pdf_
                 "pull": "if-not-exists",
                 "image": "plugins/slack",
                 "settings": {
-                    "webhook": from_secret("rocketchat_talk_webhook"),
+                    "webhook": from_secret("slack_webhook_private"),
                     "channel": "documentation",
                 },
                 "when": {
