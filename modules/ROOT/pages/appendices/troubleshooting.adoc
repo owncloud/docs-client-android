@@ -45,6 +45,43 @@ If your issue is an app crash, also the Logcat log can be helpful. To get it:
 
 Deleting the history before getting logs is a good practice that will help the team to debug the problem, avoiding unnecessary noise.
 
+==== Log HTTP Requests and Responses
+
+If HTTP logging is enabled, log files will contain additional entries:
+
+[source,plaintext]
+----
+D: 2023-09-04 09:57:38:398(LogBuilder.kt:38) .logHttp()[Network, request] [info] [686c8df9-e611-431c-9786-e784b659c1e6] Method: GET URL: https://cloud.example…
+D: 2023-09-04 09:57:38:408(LogBuilder.kt:38) .logHttp()[Network, request] [header] [686c8df9-e611-431c-9786-e784b659c1e6] Host: cloud.example…
+D: 2023-09-04 09:57:38:412(LogBuilder.kt:38) .logHttp()[Network, request] [body] [686c8df9-e611-431c-9786-e784b659c1e6] Empty body
+D: 2023-09-04 09:57:38:537(LogBuilder.kt:38) .logHttp()[Network, response] [info] [686c8df9-e611-431c-9786-e784b659c1e6] Method: GET URL: https://cloud.example…
+D: 2023-09-04 09:57:38:538(LogBuilder.kt:38) .logHttp()[Network, response] [header] [686c8df9-e611-431c-9786-e784b659c1e6] Content-Length: 0
+D: 2023-09-04 09:57:38:562(LogBuilder.kt:38) .logHttp()[Network, response] [body] [686c8df9-e611-431c-9786-e784b659c1e6] --> Body start for response
+----
+
+{empty} +
+
+[cols="25%,75%",options="header"]
+|===
+| Log Content
+| Description
+
+| `2023-09-04 09:57:38:408`
+| Timestamp
+
+| `.logHttp()[Network, request]`
+| Log item category label
+
+| `[686c8df9-e611-431c-9786-e784b659c1e6]`
+| `X-REQUEST-ID` to find corresponding requests and responses and to find related entries in `owncloud.log` or Apache logs
+
+| `[header]`
+| List of all HTTP headers
+
+| `[body]`
+| HTTP bodies (JSON, XML)
+|===
+
 ### ownCloud Server Log File
 
 The ownCloud server also maintains an ownCloud specific log file. This log file must be enabled through the ownCloud Administration page. On that page, you can adjust the log level. We recommend that when setting the log file level that you set it to a verbose level like `Debug` or `Info`.
@@ -63,11 +100,3 @@ It can be helpful to view your webserver's error log file to isolate any ownClou
 The ownCloud Android app sends the `X-REQUEST-ID` header with every request. You'll find the `X-REQUEST-ID` in the `owncloud.log`, and you can configure your webserver to add the `X-REQUEST-ID` to the logs. {owncloud-docs-server-tracing}[Here] you can find more information.
 
 Please see the {apache-docs-logging}[Apache logging] pages to get more information.
-
-== Tools
-
-=== mitmproxy
-
-{mitmproxy-url}[mitmproxy] is an interactive man-in-the-middle proxy for HTTP and HTTPS with a console interface. At ownCloud we use it a lot to investigate every detail of HTTP requests and responses.
-
-image::troubleshooting/mitmproxy_screenshot.png[mitmproxy sample output, width=400]
