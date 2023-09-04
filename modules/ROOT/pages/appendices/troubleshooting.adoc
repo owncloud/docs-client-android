@@ -45,9 +45,9 @@ If your issue is an app crash, also the Logcat log can be helpful. To get it:
 
 Deleting the history before getting logs is a good practice that will help the team to debug the problem, avoiding unnecessary noise.
 
-==== Log HTTP requests and responses
+==== Log HTTP Requests and Responses
 
-When HTTP logging is enabled, log files will contain additional entries:
+If HTTP logging is enabled, log files will contain additional entries:
 
 [source,plaintext]
 ----
@@ -59,23 +59,28 @@ D: 2023-09-04 09:57:38:538(LogBuilder.kt:38) .logHttp()[Network, response] [head
 D: 2023-09-04 09:57:38:562(LogBuilder.kt:38) .logHttp()[Network, response] [body] [686c8df9-e611-431c-9786-e784b659c1e6] --> Body start for response
 ----
 
+{empty} +
 
- [cols="25%,75%",options="header"]
- |===
- | Log Content
- | Description
+[cols="25%,75%",options="header"]
+|===
+| Log Content
+| Description
 
- | `2023-09-04 09:57:38:408`
- | Timestamp
- | `.logHttp()[Network, request]`
- | Log item category label
- | `[686c8df9-e611-431c-9786-e784b659c1e6]`
- | `X-REQUEST-ID` to find corresponding requests and responses and to find related entries in `owncloud.log` or Apache logs
- | `[header]`
- | List of all HTTP headers
- | `[body]`
- | HTTP bodies (JSON, XML)
- |===
+| `2023-09-04 09:57:38:408`
+| Timestamp
+
+| `.logHttp()[Network, request]`
+| Log item category label
+
+| `[686c8df9-e611-431c-9786-e784b659c1e6]`
+| `X-REQUEST-ID` to find corresponding requests and responses and to find related entries in `owncloud.log` or Apache logs
+
+| `[header]`
+| List of all HTTP headers
+
+| `[body]`
+| HTTP bodies (JSON, XML)
+|===
 
 ### ownCloud Server Log File
 
