@@ -1,5 +1,6 @@
 = Troubleshooting
 :toc: right
+:toclevels: 3
 :description: This is a brief troubleshooting guide which will help you get the data necessary for identifying the root cause.
 :page-aliases: troubleshooting.adoc
 
