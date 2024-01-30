@@ -35,9 +35,13 @@ asciidoc:
     # Only embed named opengraph images in docs-ui via partials/head-meta-opengraph.hbs
     page-component-build-list: 'docs, server, ocis, webui, user, desktop, ios-app, android'
 #   android
-    latest-android-version: '4.0'
-    previous-android-version: '3.0'
+    latest-android-version: 'next@'   # do not change, soft set, correctly defined via antora.yml
+    previous-android-version: 'next@' # do not change, soft set, correctly defined via antora.yml
   extensions:
-    - ./lib/extensions/tabs.js
-    - ./lib/extensions/remote-include-processor.js
-    - ./node_modules/asciidoctor-kroki/src/asciidoctor-kroki.js
+    - ./ext-asciidoc/tabs.js
+    - ./ext-asciidoc/remote-include-processor.js
+    - asciidoctor-kroki
+
+antora:
+  extensions:
+    - ./ext-antora/generate-index.js
