@@ -49,7 +49,7 @@ These are the changes necessary to finalize the creation of the 4.x branch.
 
 * The 4.x branch is already pushed and prepared and is included in the branch protection rules.
 
-* When 4.x (core) is finally out, the 4.x-2 branch can be archived, see step 3 in [Create a New Version Branch](https://github.com/owncloud/docs-client-desktop/blob/master/docs-client-android/new-version-branch.md)
+* When 4.x (core) is finally out, the 4.x-2 branch can be archived, see step 3 in [Create a New Version Branch](https://github.com/owncloud/docs-client-android/blob/master/docs/new-version-branch.md)
 
 * Note, that the 4.x branch in this repo is already created, but the `latest` pointer on the web will be set to it automatically when the tag in core is set. This means, that in the docs homepage, `latest` will point to 4.x-1 until the tag in core is set accordingly. When merging this PR, 4.x-2 will be dropped from the web.
 
