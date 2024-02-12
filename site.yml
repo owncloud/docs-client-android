@@ -31,9 +31,6 @@ asciidoc:
     experimental: true
     # Antora pagination (prev page, next page)
     page-pagination: true
-    # Custom attribute page-component-build-list
-    # Only embed named opengraph images in docs-ui via src/partials/head-meta-opengraph.hbs sourced from docs/overlay
-    page-component-build-list: 'android, branding, desktop, docs, ios-app, ocis, server, user, webui'
 #   android
     latest-android-version: 'next@'   # do not change, soft set, correctly defined via antora.yml
     previous-android-version: 'next@' # do not change, soft set, correctly defined via antora.yml
