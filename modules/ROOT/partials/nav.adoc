@@ -8,4 +8,3 @@
 * xref:faq.adoc[Frequently Asked Questions (FAQ)]
 * xref:appendices/index.adoc[Appendices]
 ** xref:appendices/troubleshooting.adoc[Troubleshooting]
-** xref:appendices/release_notes.adoc[Release Notes]
