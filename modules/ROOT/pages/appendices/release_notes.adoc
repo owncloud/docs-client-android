@@ -1,7 +1,0 @@
-= Release Notes
-:page-aliases: release_notes.adoc
-:android-changelog-url: https://github.com/owncloud/android/blob/master/CHANGELOG.md
-
-== Changelog for the Android App
-
-ownCloud provides a full changelog with a summary and details for each release of the Android App. Click the following link to access it at {android-changelog-url}[GitHub].
