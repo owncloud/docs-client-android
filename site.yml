@@ -23,22 +23,23 @@ output:
 asciidoc:
   attributes:
 #   branch-specific-variables: 'see antora.yml'
-#   build relevant
-    # asciidoctor prefix for section IDs
-    idprefix: ''
-    idseparator: '-'
-    # Antora User Interface Macros (btn, menu)
-    experimental: true
-    # Antora pagination (prev page, next page)
-    page-pagination: true
-#   android
+#   global attributes loaded via antora extension
     latest-android-version: 'next@'   # do not change, soft set, correctly defined via antora.yml
     previous-android-version: 'next@' # do not change, soft set, correctly defined via antora.yml
   extensions:
     - ./ext-asciidoc/tabs.js
     - ./ext-asciidoc/remote-include-processor.js
-    - asciidoctor-kroki
+    - asciidoctor-kroki # integrated via npm
 
 antora:
   extensions:
     - ./ext-antora/generate-index.js
+    #- ./ext-antora/comp-version.js
+    - require: ./ext-antora/load-global-site-attributes.js
+      attributefile: https://raw.githubusercontent.com/owncloud/docs/refs/heads/master/global-attributes.yml
+      #attributefile: ./global-attributes.yml
+      enabled: true
+    # for testing only, prints out attributes used
+    # use only one or the other, output can be big
+    #- ./ext-antora/attributes-used-in-site-yml.js
+    #- ./ext-antora/attributes-used-in-antora-yml.js
