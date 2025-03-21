@@ -1,6 +1,6 @@
 name: android
 title: Mobile App for Android
-version: 'next'
+version: '4.5'
 start_page: ROOT:index.adoc
 nav:
 - modules/ROOT/partials/nav.adoc
