@@ -50,5 +50,4 @@ The new features covered in the wizard are:
 * xref:files.adoc#gif-support[GIF Support]
 * xref:files.adoc#upload-pictures-directly-from-the-camera[Upload Pictures Directly From The Camera]
 
-image::installation/new-features-wizard-step-owncloud-android-app.png[The
-New Features Wizard in the ownCloud Android app., width=500]
+image::installation/new-features-wizard-step-owncloud-android-app.png[The New Features Wizard in the ownCloud Android app, width=500]
