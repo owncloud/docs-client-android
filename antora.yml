@@ -1,6 +1,6 @@
 name: android
 title: Mobile App for Android
-version: 'next'
+version: '4.8'
 prerelease: true
 start_page: ROOT:index.adoc
 nav:
