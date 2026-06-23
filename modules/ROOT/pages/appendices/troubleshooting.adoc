@@ -83,7 +83,7 @@ D: 2023-09-04 09:57:38:562(LogBuilder.kt:38) .logHttp()[Network, response] [body
 | HTTP bodies (JSON, XML)
 |===
 
-### ownCloud Server Log File
+### ownCloud Classic Log File
 
 The ownCloud server also maintains an ownCloud specific log file. This log file must be enabled through the ownCloud Administration page. On that page, you can adjust the log level. We recommend that when setting the log file level that you set it to a verbose level like `Debug` or `Info`.
 
